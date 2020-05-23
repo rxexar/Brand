@@ -1,16 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+/* Variables */
+:root {
+  --green-color: #7acc2d;
+  --white-color: white;
+  --black-color: #313337;
+  /*   Espaciado  */
+  --space: 10px;
+  /* Tipografia  */
+  --normal: 12px;
+  /*  box-shadow */
+  --box: 0px 0px 2px 1px #e6e5e9;
+}
+
 html,
 body {
   padding: 0px;
   margin: 0px;
-  font-size: 12px;
-  font-family: helvetica;
+  font-size: var(--normal);
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
   display: flex;
-  background-color: #7acc2d;
+  background-color: var(--green-color);
   padding: 10px;
-  color: white;
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
 }
@@ -23,12 +37,12 @@ nav li {
   list-style: none;
 }
 nav li a {
-  color: gray;
+  color: var(--black-color);
   text-decoration: none;
 }
 
 nav li a:hover {
-  color: white;
+  color: var(--white-color);
 }
 .main_section {
   padding: 15%;
@@ -48,19 +62,19 @@ nav li a:hover {
   margin-top: -240px;
 }
 .product .content {
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: var(--box);
 }
 .img_content {
   text-align: center;
 }
 .main_button {
-  background-color: #7acc2d;
+  background-color: var(--green-color);
   width: 100%;
   padding: 10px;
-  font-size: 12px;
-  color: white;
+  font-size: var(--normal);
+  color: var(--white-color);
   border: 0;
   cursor: pointer;
   border-radius: 2px;
