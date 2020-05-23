@@ -82,3 +82,22 @@ nav li a:hover {
 .main_button:hover {
   background-color: #5e9e22;
 }
+.characteristics {
+  display: flex;
+  justify-content: center;
+}
+.first {
+  width: 150px;
+  padding: 100px;
+  text-align: center;
+}
+.second {
+  width: 150px;
+  padding: 100px;
+  text-align: center;
+}
+.third {
+  width: 150px;
+  padding: 100px;
+  text-align: center;
+}
