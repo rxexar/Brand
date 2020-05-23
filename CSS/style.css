@@ -19,7 +19,16 @@ body {
   font-size: var(--normal);
   font-family: "Open Sans", sans-serif;
 }
-
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
 nav {
   display: flex;
   background-color: var(--green-color);
@@ -85,19 +94,98 @@ nav li a:hover {
 .characteristics {
   display: flex;
   justify-content: center;
+  background-position: center;
 }
 .first {
-  width: 150px;
+  width: 163px;
   padding: 100px;
-  text-align: center;
+  text-align: left;
+}
+.first img {
+  display: block;
+  margin: auto;
+}
+.first p {
+  padding: initial;
 }
 .second {
-  width: 150px;
+  width: 163px;
   padding: 100px;
-  text-align: center;
+  text-align: left;
+}
+.second img {
+  display: block;
+  margin: auto;
+}
+.second p {
+  padding: initial;
 }
 .third {
-  width: 150px;
+  width: 163px;
   padding: 100px;
-  text-align: center;
+  text-align: left;
+}
+.third img {
+  display: block;
+  margin: auto;
+}
+.third p {
+  padding: initial;
+}
+hr {
+  color: #eeeeee;
+}
+.menciones {
+  display: flex;
+  justify-content: center;
+}
+.comments1 {
+  width: 240px;
+  height: 187px;
+  box-shadow: var(--box);
+  margin: 50px 10px;
+}
+.comments1 h3,
+p {
+  padding: 3px 10px;
+  margin: initial;
+}
+.comments2 {
+  width: 240px;
+  height: 187px;
+  box-shadow: var(--box);
+  margin: 50px 10px;
+}
+.comments2 h3,
+p {
+  padding: 3px 10px;
+  margin: initial;
+}
+.comments3 {
+  width: 240px;
+  height: 187px;
+  box-shadow: var(--box);
+  margin: 50px 10px;
+}
+.comments3 h3,
+p {
+  padding: 3px 10px;
+  margin: initial;
+}
+.comments4 {
+  width: 240px;
+  height: 187px;
+  box-shadow: var(--box);
+  margin: 50px 10px;
+}
+.comments4 h3,
+p {
+  padding: 3px 10px;
+  margin: initial;
+}
+.pie {
+  width: auto;
+  height: 60px;
+  background: var(--black-color);
+  margin-top: 50px;
 }
