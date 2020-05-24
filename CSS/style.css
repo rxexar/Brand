@@ -62,18 +62,19 @@ nav li a:hover {
   max-height: 50px;
   background-size: cover;
   background-position: center top;
+  background-repeat: no-repeat;
   padding: 8%;
   display: flex;
   justify-content: center;
 }
 .product {
-  padding: 10px;
-  margin-top: -240px;
+  padding: 20px;
+  margin-top: -226px;
 }
-.product .content {
+.content {
   width: 240px;
   background-color: var(--white-color);
-  padding: 18px;
+  padding: 20px;
   box-shadow: var(--box);
 }
 .content p {
@@ -84,10 +85,8 @@ nav li a:hover {
 }
 .main_button {
   background-color: var(--green-color);
-  margin-top: 10px;
   width: 100%;
   padding: 10px;
-  font-size: var(--normal);
   color: var(--white-color);
   border: 0;
   cursor: pointer;
@@ -97,96 +96,35 @@ nav li a:hover {
   background-color: #5e9e22;
 }
 .characteristics {
+  padding: 10%;
   display: flex;
-  justify-content: center;
-  background-position: center;
 }
-.first {
-  width: 163px;
+.cards {
   padding: 100px;
+  text-align: center;
+}
+.cards img {
+  max-height: 100px;
+}
+.cards p {
   text-align: left;
-}
-.first img {
-  display: block;
-  margin: auto;
-}
-.first p {
-  padding: initial;
-}
-.second {
-  width: 163px;
-  padding: 100px;
-  text-align: left;
-}
-.second img {
-  display: block;
-  margin: auto;
-}
-.second p {
-  padding: initial;
-}
-.third {
-  width: 163px;
-  padding: 100px;
-  text-align: left;
-}
-.third img {
-  display: block;
-  margin: auto;
-}
-.third p {
-  padding: initial;
 }
 hr {
   color: #eeeeee;
 }
-.menciones {
+.mentions {
   display: flex;
   justify-content: center;
 }
-.comments1 {
+.comments {
   width: 240px;
-  height: 187px;
-  box-shadow: var(--box);
   margin: 50px 10px;
-}
-.comments1 h3,
-p {
-  padding: 3px 10px;
-  margin: initial;
-}
-.comments2 {
-  width: 240px;
-  height: 187px;
+  padding: var(--space);
   box-shadow: var(--box);
-  margin: 50px 10px;
 }
-.comments2 h3,
+.comments h3,
 p {
-  padding: 3px 10px;
-  margin: initial;
-}
-.comments3 {
-  width: 240px;
-  height: 187px;
-  box-shadow: var(--box);
-  margin: 50px 10px;
-}
-.comments3 h3,
-p {
-  padding: 3px 10px;
-  margin: initial;
-}
-.comments4 {
-  width: 240px;
-  height: 187px;
-  box-shadow: var(--box);
-  margin: 50px 10px;
-}
-.comments4 h3,
-p {
-  padding: 3px 10px;
-  margin: initial;
+  padding: 0px 10px;
 }
 .pie {
   width: auto;
