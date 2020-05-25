@@ -114,3 +114,10 @@ label {
     height: 150px;
   }
 }
+
+/* -----------------faqs---------------- */
+
+.faqs {
+  display: grid;
+  justify-content: center;
+}
