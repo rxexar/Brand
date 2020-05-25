@@ -1,5 +1,9 @@
+/* Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 /* Variables */
+
 :root {
   --green-color: #7acc2d;
   --white-color: white;
@@ -53,6 +57,9 @@ nav li a {
 nav li a:hover {
   color: var(--white-color);
 }
+
+/* --------------------productos principales------------- */
+
 .main_section {
   padding: 15%;
   text-align: center;
@@ -95,6 +102,9 @@ nav li a:hover {
 .main_button:hover {
   background-color: #5e9e22;
 }
+
+/* ---------------------Caracteristicas --------------- */
+
 .characteristics {
   padding: 10%;
   display: flex;
@@ -112,6 +122,9 @@ nav li a:hover {
 hr {
   color: #eeeeee;
 }
+
+/* ----------------Comentarios y/o reseñas----------- */
+
 .mentions {
   display: flex;
   justify-content: center;
@@ -126,6 +139,9 @@ hr {
 p {
   padding: 0px 10px;
 }
+
+/* -----------------------Pie de pagina---------------- */
+
 .pie {
   width: auto;
   height: 60px;
@@ -139,4 +155,19 @@ p {
   color: var(--white-color);
   text-decoration: none;
   padding: 0 10px;
+}
+
+/* ---------------Pagina compra exitosa -------------------- */
+
+.compra_exitosa {
+  background: var(--black-color);
+  color: var(--white-color);
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh;
+  width: 100vw;
+}
+.compra_exitosa a {
+  color: var(--green-color);
 }
